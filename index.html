@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendor LogIn</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid" id="vendorLogin">
+        <div class="d-flex">
+            <div class="leftSide">
+                <div class="img position-relative">
+                    <img src="img/img1.png" alt="">
+                    <div class="h2 position-absolute">
+                        <h2>
+                            <span>Sell On</span> Azany
+                        </h2>
+                        <p class="text-white">Vendor Login</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="vendorLogIn">
+                    <h3>Vendor Login</h3>
+                    <div class="forms">
+                        <form>
+                            <div class="form-group">
+                                <div>
+                                    <label for="exampleInputEmail1">Email Address or Mobile Number</label>
+                                    <input type="email number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address or Mobile Number">
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <div class="pasword position-relative">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="At least 8 characters">
+                                    <div class="passwordShowIcon position-absolute">
+                                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.185 17.868L13.764 15.4455C12.8278 15.7802 11.8157 15.8422 10.8456 15.6243C9.87554 15.4063 8.98729 14.9173 8.28423 14.2143C7.58117 13.5112 7.09221 12.623 6.87424 11.6529C6.65628 10.6828 6.71827 9.67074 7.053 8.7345L3.963 5.6445C1.407 7.917 0 10.5 0 10.5C0 10.5 4.5 18.75 12 18.75C13.4406 18.745 14.8649 18.4448 16.185 17.868ZM7.815 3.132C9.13508 2.55514 10.5594 2.25496 12 2.25C19.5 2.25 24 10.5 24 10.5C24 10.5 22.5915 13.0815 20.0385 15.357L16.9455 12.264C17.2802 11.3278 17.3422 10.3157 17.1243 9.34563C16.9063 8.37554 16.4173 7.48729 15.7143 6.78423C15.0112 6.08117 14.123 5.59221 13.1529 5.37424C12.1828 5.15628 11.1707 5.21827 10.2345 5.553L7.815 3.1335V3.132Z" fill="#CC1666"/>
+                                        <path d="M8.28749 9.96875C8.20498 10.5452 8.25786 11.133 8.44194 11.6855C8.62602 12.2379 8.93623 12.74 9.34801 13.1517C9.75979 13.5635 10.2618 13.8737 10.8143 14.0578C11.3668 14.2419 11.9545 14.2948 12.531 14.2123L8.28599 9.96875H8.28749ZM15.7125 11.0308L11.469 6.78575C12.0455 6.70324 12.6332 6.75612 13.1857 6.9402C13.7382 7.12427 14.2402 7.43449 14.652 7.84627C15.0638 8.25804 15.374 8.76006 15.5581 9.31254C15.7421 9.86502 15.795 10.4528 15.7125 11.0292V11.0308ZM20.469 20.0308L2.46899 2.03075L3.53099 0.96875L21.531 18.9688L20.469 20.0308Z" fill="#CC1666"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="forgotPassword">
+                                    <a href="#">
+                                        <small id="emailHelp" class="form-text">Forgot Password?</small>
+                                    </a>
+                                </div>
+                            </div>
+                            <button type="submit" class="vendorButton">Login</button>
+                        </form>
+                        <div class="signUpLink">
+                            <h6>
+                                <small class="text-muted">Don’t have an account?</small>
+                                <a href="#">CREATE ACCOUNT</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
